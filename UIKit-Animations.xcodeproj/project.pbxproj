@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DD054AC23E47E290000FAAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD054AB23E47E290000FAAC /* AppDelegate.swift */; };
+		4DD054AE23E47E290000FAAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD054AD23E47E290000FAAC /* SceneDelegate.swift */; };
+		4DD054B023E47E290000FAAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD054AF23E47E290000FAAC /* ViewController.swift */; };
+		4DD054B523E47E2D0000FAAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD054B423E47E2D0000FAAC /* Assets.xcassets */; };
+		4DD054B823E47E2D0000FAAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD054B623E47E2D0000FAAC /* LaunchScreen.storyboard */; };
+		4DD054C023E47E3C0000FAAC /* Notes in Resources */ = {isa = PBXBuildFile; fileRef = 4DD054BF23E47E3C0000FAAC /* Notes */; };
+		4DD054C223E47FA80000FAAC /* AnimationsTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD054C123E47FA80000FAAC /* AnimationsTabController.swift */; };
+		4DD054C423E480790000FAAC /* SampleAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD054C323E480790000FAAC /* SampleAnimationController.swift */; };
+		4DD054C623E480A40000FAAC /* ConstraintsAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD054C523E480A40000FAAC /* ConstraintsAnimationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4DD054A823E47E290000FAAC /* UIKit-Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-Animations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD054AB23E47E290000FAAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DD054AD23E47E290000FAAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4DD054AF23E47E290000FAAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DD054B423E47E2D0000FAAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DD054B723E47E2D0000FAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DD054B923E47E2D0000FAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD054BF23E47E3C0000FAAC /* Notes */ = {isa = PBXFileReference; lastKnownFileType = text; path = Notes; sourceTree = "<group>"; };
+		4DD054C123E47FA80000FAAC /* AnimationsTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsTabController.swift; sourceTree = "<group>"; };
+		4DD054C323E480790000FAAC /* SampleAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAnimationController.swift; sourceTree = "<group>"; };
+		4DD054C523E480A40000FAAC /* ConstraintsAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintsAnimationController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DD054A523E47E290000FAAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DD0549F23E47E290000FAAC = {
+			isa = PBXGroup;
+			children = (
+				4DD054BF23E47E3C0000FAAC /* Notes */,
+				4DD054AA23E47E290000FAAC /* UIKit-Animations */,
+				4DD054A923E47E290000FAAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DD054A923E47E290000FAAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DD054A823E47E290000FAAC /* UIKit-Animations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DD054AA23E47E290000FAAC /* UIKit-Animations */ = {
+			isa = PBXGroup;
+			children = (
+				4DD054AB23E47E290000FAAC /* AppDelegate.swift */,
+				4DD054AD23E47E290000FAAC /* SceneDelegate.swift */,
+				4DD054C723E480AD0000FAAC /* Controllers */,
+				4DD054B423E47E2D0000FAAC /* Assets.xcassets */,
+				4DD054B623E47E2D0000FAAC /* LaunchScreen.storyboard */,
+				4DD054B923E47E2D0000FAAC /* Info.plist */,
+			);
+			path = "UIKit-Animations";
+			sourceTree = "<group>";
+		};
+		4DD054C723E480AD0000FAAC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4DD054AF23E47E290000FAAC /* ViewController.swift */,
+				4DD054C323E480790000FAAC /* SampleAnimationController.swift */,
+				4DD054C523E480A40000FAAC /* ConstraintsAnimationController.swift */,
+				4DD054C123E47FA80000FAAC /* AnimationsTabController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DD054A723E47E290000FAAC /* UIKit-Animations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD054BC23E47E2D0000FAAC /* Build configuration list for PBXNativeTarget "UIKit-Animations" */;
+			buildPhases = (
+				4DD054A423E47E290000FAAC /* Sources */,
+				4DD054A523E47E290000FAAC /* Frameworks */,
+				4DD054A623E47E290000FAAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIKit-Animations";
+			productName = "UIKit-Animations";
+			productReference = 4DD054A823E47E290000FAAC /* UIKit-Animations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DD054A023E47E290000FAAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Melinda Diaz";
+				TargetAttributes = {
+					4DD054A723E47E290000FAAC = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4DD054A323E47E290000FAAC /* Build configuration list for PBXProject "UIKit-Animations" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DD0549F23E47E290000FAAC;
+			productRefGroup = 4DD054A923E47E290000FAAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DD054A723E47E290000FAAC /* UIKit-Animations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DD054A623E47E290000FAAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD054B823E47E2D0000FAAC /* LaunchScreen.storyboard in Resources */,
+				4DD054B523E47E2D0000FAAC /* Assets.xcassets in Resources */,
+				4DD054C023E47E3C0000FAAC /* Notes in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DD054A423E47E290000FAAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD054B023E47E290000FAAC /* ViewController.swift in Sources */,
+				4DD054C623E480A40000FAAC /* ConstraintsAnimationController.swift in Sources */,
+				4DD054AC23E47E290000FAAC /* AppDelegate.swift in Sources */,
+				4DD054C223E47FA80000FAAC /* AnimationsTabController.swift in Sources */,
+				4DD054C423E480790000FAAC /* SampleAnimationController.swift in Sources */,
+				4DD054AE23E47E290000FAAC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DD054B623E47E2D0000FAAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DD054B723E47E2D0000FAAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DD054BA23E47E2D0000FAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DD054BB23E47E2D0000FAAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DD054BD23E47E2D0000FAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4Q46HX6W5;
+				INFOPLIST_FILE = "UIKit-Animations/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.melinda.UIKit-Animations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DD054BE23E47E2D0000FAAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4Q46HX6W5;
+				INFOPLIST_FILE = "UIKit-Animations/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.melinda.UIKit-Animations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DD054A323E47E290000FAAC /* Build configuration list for PBXProject "UIKit-Animations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD054BA23E47E2D0000FAAC /* Debug */,
+				4DD054BB23E47E2D0000FAAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD054BC23E47E2D0000FAAC /* Build configuration list for PBXNativeTarget "UIKit-Animations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD054BD23E47E2D0000FAAC /* Debug */,
+				4DD054BE23E47E2D0000FAAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DD054A023E47E290000FAAC /* Project object */;
+}

@@ -1,0 +1,3 @@
+Removed storyboard in info.plist and the file
+
+Go to Scene delegate to set up the main entry point for our firsst view controller
